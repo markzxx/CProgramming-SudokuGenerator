@@ -1,6 +1,6 @@
 # SudokuGenerator
 
-One Paragraph of project description goes here
+When spacebar is entered, a completed sudoku generate 
 
 ## Getting Started
 
