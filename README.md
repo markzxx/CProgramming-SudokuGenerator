@@ -1,6 +1,6 @@
 # SudokuGenerator
 
-When spacebar is entered, a completed sudoku generate 
+When spacebar is pressed, a completed sudoku generate 
 
 ## Getting Started
 
