@@ -10,4 +10,4 @@ The main idea of Sudoku generator is to create a good root of a sudoku, and gene
 
 
 ```
-Give examples
+![alt text](CProgramming-SudokuGenerator/Others/rootOfSudoku.jpg)
