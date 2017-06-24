@@ -39,6 +39,7 @@ int generateRandomeNumer(){
 }
 
 
+/* Swapping two rows or columns in the same group */
 void shuffleForEachGroup(char* rowOrCol, int ** sudoku){
     for (int i=0; i<3; i++){
         int random = generateRandomeNumer();
@@ -53,6 +54,7 @@ void shuffleForEachGroup(char* rowOrCol, int ** sudoku){
     }
 }
 
+/* Swapping two groups */
 void shuffleTwoRows(int ** sudoku, int random, int group){
     int temp;
     int row1 = 3*group, row2 = 3*group+random;
@@ -64,6 +66,7 @@ void shuffleTwoRows(int ** sudoku, int random, int group){
     }       
 }
 
+/* Swapping two columns */
 void shuffleTwoCols(int ** sudoku, int random, int group){
     int temp;
     int col1 = 3*group, col2 = 3*group+random;
@@ -94,7 +97,6 @@ void shuffleGroups(char* rowOrCol, int ** sudoku){
                 sudoku[j][group1+i] = sudoku[j][group2+i];
                 sudoku[j][group2+i] = temp;
             }
-            
         }
     }    
 }
@@ -128,7 +130,7 @@ int main()
     }
     
     //print the good root of sudoku
-    printf("Show the root of a Sudoku\n");
+    printf("Show the good root of a Sudoku\n");
     drawSudoku(sudoku);
     
     
