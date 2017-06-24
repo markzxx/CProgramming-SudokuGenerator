@@ -101,7 +101,7 @@ void shuffleGroups(char* rowOrCol, int ** sudoku){
     }    
 }
 
-
+/* Main Program starts here*/
 int main()
 {
     srand(time(NULL));
