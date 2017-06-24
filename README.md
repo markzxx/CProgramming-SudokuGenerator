@@ -1,13 +1,13 @@
 # SudokuGenerator
 
-Using C programming language to generte sudoku puzzle \n
-When spacebar is pressed, a completed sudoku generate 
+Using C programming language to generte simple sudoku puzzle 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The main idea of Sudoku generator is to create a good root of a sudoku, and generate different versions of a complete Sudoku by swapping and shuffling rows and columns.
 
 ### Details of the Sudoku generator
+
 
 ```
 Give examples
