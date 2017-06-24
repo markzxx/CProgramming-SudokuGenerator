@@ -1,6 +1,6 @@
 # SudokuGenerator
 
-Using C programming language to generte sudoku puzzle
+Using C programming language to generte sudoku puzzle \n
 When spacebar is pressed, a completed sudoku generate 
 
 ## Getting Started
