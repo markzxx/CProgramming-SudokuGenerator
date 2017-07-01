@@ -10,7 +10,7 @@ The main idea of Sudoku generator is to create a good root of a sudoku, and gene
 
 ### Details of the Sudoku generator
 
-1. Create the good root of Sudoku
+1. Create the good root of Sudoku in order
 
 ![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/rootOfSudoku.jpg)
 
