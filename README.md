@@ -11,8 +11,7 @@ The main idea of Sudoku generator is to create a good root of a sudoku, and gene
 ### Details of the Sudoku generator
 
 1. Create the good root of Sudoku in order
-
-
+<br />
 ```C
      /* Create the root of sudoku */
     for (int countGroup=0; countGroup<3; countGroup++){
