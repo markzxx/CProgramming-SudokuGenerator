@@ -33,6 +33,45 @@ The main idea of Sudoku generator is to create a good root of a sudoku, and gene
 2. Shuffle rows and columns for each group: Randomly pick two rows or columns in same group and swap them.
 
 ```C
+/* Swapping two rows or columns in the same group */
+void shuffleForEachGroup(char* rowOrCol, int ** sudoku){
+    for (int i=0; i<3; i++){
+        int random = generateRandomeNumer();
+        // no swap if zero is generate 
+        if (random != 0){
+            if (strcmp(rowOrCol, "row") == 0) 
+                shuffleTwoRows(sudoku,random, i);
+            
+            else 
+                shuffleTwoCols(sudoku,random, i);   
+        }
+    }
+}
+
+/* Swapping two groups */
+void shuffleTwoRows(int ** sudoku, int random, int group){
+    int temp;
+    int row1 = 3*group, row2 = 3*group+random;
+    
+    for (int i=0; i<9; i++){
+        temp = sudoku[row1][i];
+        sudoku[row1][i] = sudoku[row2][i];
+        sudoku[row2][i] = temp;
+    }       
+}
+
+/* Swapping two columns */
+void shuffleTwoCols(int ** sudoku, int random, int group){
+    int temp;
+    int col1 = 3*group, col2 = 3*group+random;
+    
+    for (int i=0; i<9; i++){
+        temp = sudoku[i][col1];
+        sudoku[i][col1] = sudoku[i][col2];
+        sudoku[i][col2] = temp;
+    } 
+}
+     /* Main Program */
     //Shuffle rows for each group (within the 3×3 borders)
     shuffleForEachGroup("row", sudoku);
     
