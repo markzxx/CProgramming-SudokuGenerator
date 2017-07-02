@@ -27,7 +27,13 @@ The main idea of Sudoku generator is to create a good root of a sudoku, and gene
     }
 ```
 
-
-
 ![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/rootOfSudoku.jpg)
 
+2. Shuffle rows and columns for each group 
+
+```C
+    //Shuffle rows for each group (within the 3×3 borders)
+    shuffleForEachGroup("row", sudoku);
+    
+    //Shuffle columns for each group (within the 3×3 borders)
+    shuffleForEachGroup("col", sudoku);
