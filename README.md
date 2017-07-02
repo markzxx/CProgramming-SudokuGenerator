@@ -48,7 +48,7 @@ void shuffleForEachGroup(char* rowOrCol, int ** sudoku){
     }
 }
 
-/* Swapping two groups */
+/* Swapping two rows */
 void shuffleTwoRows(int ** sudoku, int random, int group){
     int temp;
     int row1 = 3*group, row2 = 3*group+random;
