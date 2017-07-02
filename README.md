@@ -29,6 +29,7 @@ The main idea of Sudoku generator is to create a good root of a sudoku, and gene
 
 ![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/rootOfSudoku.jpg)
 
+<br />
 2. Shuffle rows and columns for each group 
 
 ```C
