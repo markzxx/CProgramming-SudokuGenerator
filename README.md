@@ -84,3 +84,6 @@ void shuffleTwoCols(int ** sudoku, int random, int group){
     //Shuffle columns for each group (within the 3×3 borders)
     shuffleForEachGroup("col", sudoku);
 ```    
+
+#### 3. Shuffle rows and columns for each group: Randomly pick two rows or columns in same group and swap them. <br />
+
