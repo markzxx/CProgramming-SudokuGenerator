@@ -147,7 +147,7 @@ int main()
     //Shuffle two groups of rows
     shuffleGroups("row", sudoku);
     
-    // Shuffle two groups of rows
+    // Shuffle two groups of col
     shuffleGroups("col", sudoku);
     
     // Draw the result
