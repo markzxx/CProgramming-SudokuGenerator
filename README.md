@@ -9,7 +9,9 @@ Using C programming language to generte simple sudoku puzzle
 The main idea of Sudoku generator is to create a good root of a sudoku, and generate different versions of a complete Sudoku by swapping and shuffling rows and columns.
 
 ### Details of the Sudoku generator
+
 <br />
+
 #### 1. Create the good root of Sudoku in order <br />
 
 ```C
@@ -29,7 +31,7 @@ The main idea of Sudoku generator is to create a good root of a sudoku, and gene
 ![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/rootOfSudoku.jpg)
 
 <br />
-#### 2. Shuffle rows and columns for each group: Randomly pick two rows or columns in same group and swap them.
+#### 2. Shuffle rows and columns for each group: Randomly pick two rows or columns in same group and swap them. <br />
 ```C
 /* Swapping two rows or columns in the same group */
 void shuffleForEachGroup(char* rowOrCol, int ** sudoku){
