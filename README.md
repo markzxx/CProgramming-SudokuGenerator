@@ -77,3 +77,8 @@ void shuffleTwoCols(int ** sudoku, int random, int group){
     
     //Shuffle columns for each group (within the 3×3 borders)
     shuffleForEachGroup("col", sudoku);
+```    
+    
+![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/2rowEachGroup.jpg)
+
+![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/2colEachGroup.jpg)
