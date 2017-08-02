@@ -95,4 +95,13 @@ void shuffleTwoCols(int ** sudoku, int random, int group){
 
 ![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/2groupRow.jpg)
 
+```C
+     
 
+     /* Main Program */
+    //Shuffle two groups of rows
+    shuffleGroups("row", sudoku);
+    
+    // Shuffle two groups of col
+    shuffleGroups("col", sudoku);
+```
