@@ -96,7 +96,29 @@ void shuffleTwoCols(int ** sudoku, int random, int group){
 ![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/2groupRow.jpg)
 
 ```C
-     
+/* Swapping two groups vertically or horizontally */
+void shuffleGroups(char* rowOrCol, int ** sudoku){
+    //pick two different groups to swap
+    int group1 = generateRandomeNumer(),  group2=group1;
+    while(group1 == group2) group2 = generateRandomeNumer();
+    group1 *=3, group2 *= 3;
+    
+    int temp;
+    for (int i=0; i<3; i++){
+        for (int j=0; j<9; j++){
+            if (strcmp(rowOrCol,"row") == 0){
+                temp = sudoku[group1+i][j];
+                sudoku[group1+i][j] = sudoku[group2+i][j];
+                sudoku[group2+i][j] = temp;
+            }
+            else{
+                temp = sudoku[j][group1+i];
+                sudoku[j][group1+i] = sudoku[j][group2+i];
+                sudoku[j][group2+i] = temp;
+            }
+        }
+    }    
+}
 
      /* Main Program */
     //Shuffle two groups of rows
