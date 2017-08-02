@@ -14,6 +14,8 @@ The main idea of Sudoku generator is to create a good root of a sudoku, and gene
 
 #### 1. Create the good root of Sudoku in order <br />
 
+![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/rootOfSudoku.jpg)
+
 ```C
      /* Create the root of sudoku */
     for (int countGroup=0; countGroup<3; countGroup++){
@@ -28,11 +30,13 @@ The main idea of Sudoku generator is to create a good root of a sudoku, and gene
     }
 ```
 
-![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/rootOfSudoku.jpg)
-
 <br />
 
 #### 2. Shuffle rows and columns for each group: Randomly pick two rows or columns in same group and swap them. <br />
+
+![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/2rowEachGroup.jpg)
+
+![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/2colEachGroup.jpg)
 
 ```C
 /* Swapping two rows or columns in the same group */
@@ -80,7 +84,3 @@ void shuffleTwoCols(int ** sudoku, int random, int group){
     //Shuffle columns for each group (within the 3×3 borders)
     shuffleForEachGroup("col", sudoku);
 ```    
-    
-![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/2rowEachGroup.jpg)
-
-![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/2colEachGroup.jpg)
