@@ -1,6 +1,6 @@
 # SudokuGenerator
 
-It is a short and simple personal project by using C programming language to generte simple sudoku puzzle 
+A short and simple personal project by using C programming language to generte simple sudoku puzzle 
 
 [Click Here to view my code](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/MyProject/generator.c)
 
