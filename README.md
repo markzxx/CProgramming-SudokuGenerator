@@ -87,4 +87,8 @@ void shuffleTwoCols(int ** sudoku, int random, int group){
 
 #### 3. Shuffle Two Groups: Randomly pick two groups and swap them in Row or Col. <br />
 
+![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/2groupCol.jpg)
+
+![alt text](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/Others/2groupRow.jpg)
+
 
