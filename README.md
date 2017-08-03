@@ -3,7 +3,7 @@
 **A short and simple personal project<br />**
 Using C programming language to generte simple sudoku puzzle 
 
-[Click Here to view my code](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/MyProject/generator.c)
+[Click Here to view my program](https://github.com/wing9413/CProgramming-SudokuGenerator/blob/master/MyProject/generator.c)
 
 ## Getting Started
 
